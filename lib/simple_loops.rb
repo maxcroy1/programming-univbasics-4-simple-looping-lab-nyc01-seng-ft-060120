@@ -1,5 +1,4 @@
 # Write your methods here
-require 'pry'
 def loop_message_five_times(message)
   counter = 0 
   while counter < 5 do
@@ -27,7 +26,6 @@ def return_string_array(array)
   counter = 0
   while array[counter] do
     array[counter].to_s 
-    binding.pry
     counter += 1 
   end
 end
